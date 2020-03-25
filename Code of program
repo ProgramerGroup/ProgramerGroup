@@ -1,0 +1,14 @@
+# Find Area
+
+# a = float(input('first side of the triangle: '))
+# b = float(input('second side of the triangle: '))
+# c = float(input('third side of the triangle: '))
+a = float(input("first side of the triangle: "))
+b = float(input("second side of the triangle: "))
+c = float(input("third side of the triangle: "))
+# Area #1
+s = (a + b + c) / 2
+
+# Area №2
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+print('Triangel area is %0.2f Sm' %area)
